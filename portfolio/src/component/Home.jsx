@@ -2,19 +2,29 @@ import React from 'react'
 import pourush from '../assets/pourush.jpg'
 import { MdKeyboardArrowRight } from "react-icons/md";
 import {Link} from "react-scroll"
-
+import { ReactTyped } from "react-typed";
 
 function Home() {
   return (
     <div 
     name="home" 
-    className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 '
+    className='h-screen pt-32 w-full bg-gradient-to-b from-black via-black to-gray-800 '
     >
-       <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
-      <div className='flex flex-col justify-center h-full'>
+       <div className='max-w-screen-lg mx-auto gap-32 flex flex-col items-center justify-between h-full px-4 md:flex-row'>
+      <div className=' w-1/2 flex flex-col justify-center h-full'>
         <h2 className='text-4xl sm:text-7xl font-bold text-white'>
-          I'm a Full Stack Developer
+          <span>I'm a </span>
+          <ReactTyped
+          
+          strings={[" Full Stack Developer", " Programmer", " Coder"]}
+          typeSpeed={40}
+          backSpeed={50}
+          loop={true}
+        />
+          {/* <span> Full Stack Developer </span> */}
+          
         </h2>
+       
         <p className='text-gray-500 py-4 max-w-md'>Passionate Full Stack Developer with a strong foundation in the MERN stack and proficiency in Data Structures & Algorithms. I specialize in building scalable web applications and have solved 100+ DSA problems on Coding Ninja and 60+ on LeetCode, showcasing my problem-solving skills through thoughtful design and clean code
         </p>
         <div>
