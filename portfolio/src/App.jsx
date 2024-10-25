@@ -10,6 +10,7 @@ import About from './component/About.jsx'
 import Portfolio from './component/Portfolio.jsx'
 import Experience from './component/Experience.jsx'
 import Contact from './component/Contact.jsx'
+import Connection from './component/Connection.jsx'
 
 function App() {
 
@@ -18,7 +19,9 @@ function App() {
     <>
     <Header/>
    <Home/>
+   <Connection/>
    <Sociallinks/>
+   
    <About/>
    <Portfolio/>
    <Experience/>

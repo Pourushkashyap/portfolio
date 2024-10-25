@@ -50,6 +50,7 @@ function Sociallinks() {
        
     ]
   return (
+    <>
     <div className='hidden lg:flex flex-col top-[35%] left-0 fixed'>
         <ul>
             
@@ -73,6 +74,8 @@ function Sociallinks() {
            
         </ul>
     </div>
+   
+    </>
   )
 }
 
