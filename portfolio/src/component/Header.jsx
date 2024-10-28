@@ -40,7 +40,7 @@ function Header() {
         key={id}
         className='relative px-4 hover:scale-105 duration-200 transition-all hover:text-white text-gray-500 cursor-pointer text-xl capitalize font-medium'
       >
-        <Link to={link} smooth={true} offset={-80} duration={500} className="relative after:block after:absolute after:left-0 after:bottom-0 after:h-[3px]  after:w-0 after:bg-white after:transition-all after:duration-500 hover:after:w-full">
+        <Link to={link} smooth={true} offset={-50} duration={500} className="relative after:block after:absolute after:left-0 after:bottom-0 after:h-[3px]  after:w-0 after:bg-white after:transition-all after:duration-500 hover:after:w-full">
           {link}
         </Link> 
       </li>

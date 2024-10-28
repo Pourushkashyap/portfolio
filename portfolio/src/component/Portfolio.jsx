@@ -7,6 +7,7 @@ import reactSmooth from '../assets/reactSmooth.jpg'
 import reactWeather from '../assets/reactWeather.jpg'
 import swiggy2 from '../assets/swiggy2.jpg'
 import netflix from '../assets/netflix.jpeg'
+import leetcode from '../assets/leetcode.jpeg'
 function Portfolio() {
 
     const portfolios = [
@@ -16,23 +17,28 @@ function Portfolio() {
         },
         {
             id:2,
-            src:reactParallax,
+            src:leetcode,
+            link:"https://leetcode.com/u/_pourush2005/"
         },
         {
             id:3,
             src:navbar,
+            link:"https://github.com/Pourushkashyap/HealthSpot"
         },
         {
             id:4,
             src:reactSmooth,
+            link:"https://github.com/Pourushkashyap/portfolio"
         },
         {
             id:5,
             src:swiggy2,
+            link:'https://github.com/Pourushkashyap/SwiggyClone2'
         },
         {
             id:6,
             src:netflix,
+            link:"https://github.com/Pourushkashyap/Netflixclone" 
         },
     ]
   return (
@@ -48,12 +54,12 @@ function Portfolio() {
 
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
          
-         {portfolios.map(({id,src}) =>(
+         {portfolios.map(({id,src,link}) =>(
               <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
             <img src={src} alt="" className='rounded-md duration-200 w-[309px] h-[174px] hover:scale-105' />
             <div className='flex items-center justify-center'>
                 <button className='w-1/2 px-6 py-3 duration-200 hover:scale-105'>Demo</button>
-                <button className='w-1/2 px-6 py-3 duration-200 hover:scale-105'>Code</button>
+             <a href={link}><button className='w-1/2 px-6 py-3 duration-200 hover:scale-105'>Code</button></a>   
             </div>
         </div>
          )) }
