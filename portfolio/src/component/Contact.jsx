@@ -93,7 +93,8 @@ function Contact() {
                 {/* Left Section */}
                 <div className="lg:w-1/2 text-white mb-12 lg:mb-0">
                     <p className='text-5xl py-12 text-pink-200'>Let's Talk</p>
-                    <p className='text-xl pb-5'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero labore cupiditate non sequi reiciendis,Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero? inventore ipsam totam modi Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore est exercitationem.
+                    <p className='text-xl pb-5'>Feel free to reach out for any inquiries or support. I am happy to assist with your questions or discuss any projects. Don't hesitate to get in touch via email, phone, or through the contact form below.
+
                     </p>
 
                     <div className='flex flex-col gap-4 text-xl'>
